@@ -2,10 +2,12 @@
 <!--UAT Space Program Shell Page
 Written by Megan Folsom
 megfolso@uat.edu
-May 11, 2021-->
+May 13, 2021-->
 <html>
 
 <head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="code.js"></script>
     <title>UAT Space Program Data</title>
 </head>
 
@@ -14,12 +16,15 @@ May 11, 2021-->
     <h1>UAT Space Program</h1>
     <script>
         //Javascript Stuff should happen here
-     document.write("document.write function test");
+        document.write("document.write function test");
     </script>
     <p>Paragraph Tag Placeholder Text</p><br>
-    <button style = 'color:green;'>Start</button>
-    <button style = 'color:red;'>Stop</button>
-    <script>alert("We have lift-off!");</script>
+    <br>
+    <br>
+    <p id="countdownTimer">Countdown Status ...</p>
+    <button style='color:green;' onclick = "startCountdown();" >Start</button>
+    <button style='color:red;'>Stop</button>
+    <!--script>alert("We have lift-off!");</script-->
 </body>
 
 </html>
